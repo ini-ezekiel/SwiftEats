@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwiftEats</title>
+    <link rel="stylesheet" href="/templates/style.css">
+  </head>
+  <body>
+    <div class="container">
+        <h1>SWIFTEATS</h1>
+        <form id="signinForm" action="/dashboard" method="POST">
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username"
+            placeholder="@johnmike001" required>
+
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password"
+            placeholder="..........." required>
+          <div class="crfgt">
+            <a href="#">Forgot Password?</a>
+            <p>Don't have an account? <a href="/signup">Sign Up</a></p>
+          </div>
+          <button type="submit" onclick="window.location.href='pages/dashboard.html'">Sign In</button>
+        </form>
+    </div>
+
+
+    <!-- <script src="/templates/script.js"></script> -->
+  </body>
+</html>
